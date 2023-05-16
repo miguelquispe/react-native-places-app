@@ -10,7 +10,7 @@ import { addLike } from "../store/slices/likes";
 import Constants from "expo-constants";
 import { useLazyDetailsQuery } from "../store/services/places";
 
-const DeckScreen = () => {
+const PlacesScreen = () => {
   const dispatch = useDispatch();
 
   const {
@@ -96,6 +96,6 @@ const DeckScreen = () => {
   );
 };
 
-export default DeckScreen;
+export default PlacesScreen;
 
 const styles = StyleSheet.create({});

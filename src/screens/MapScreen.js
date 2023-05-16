@@ -42,7 +42,7 @@ const MapScreen = () => {
 
   useEffect(() => {
     if (isSuccess && locations.length > 0) {
-      navigation.navigate("Deck");
+      navigation.navigate("Places");
     }
   }, [isSuccess, locations]);
 

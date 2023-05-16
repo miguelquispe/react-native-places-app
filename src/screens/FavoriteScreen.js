@@ -5,7 +5,7 @@ import { useSelector } from "react-redux";
 import * as Linking from "expo-linking";
 import LocationCard from "../components/Card";
 
-const ReviewScreen = ({ navigation }) => {
+const FavoriteScreen = ({ navigation }) => {
   const { likes } = useSelector((state) => state.likes);
 
   useEffect(() => {
@@ -30,6 +30,6 @@ const ReviewScreen = ({ navigation }) => {
   );
 };
 
-export default ReviewScreen;
+export default FavoriteScreen;
 
 const styles = StyleSheet.create({});
