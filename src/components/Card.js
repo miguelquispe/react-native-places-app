@@ -1,6 +1,6 @@
 import { View, Text, Platform } from "react-native";
 import React from "react";
-import { useDetailQuery } from "../app/services";
+import { useDetailQuery } from "../store/services/places";
 import Constants from "expo-constants";
 import MapView, { PROVIDER_DEFAULT, PROVIDER_GOOGLE } from "react-native-maps";
 import { AirbnbRating, Card } from "@rneui/themed";

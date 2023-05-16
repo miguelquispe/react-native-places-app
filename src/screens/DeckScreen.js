@@ -4,10 +4,11 @@ import { useDispatch, useSelector } from "react-redux";
 import Swipe from "../components/Swipe";
 import LocationCard from "../components/Card";
 import EmptyCard from "../components/EmptyCard";
-import { addLike } from "../app/features/likes";
+import { addLike } from "../store/slices/likes";
 
-import { useLazyDetailsQuery } from "../app/services";
+// import { useLazyDetailsQuery } from "../slices/services/places";
 import Constants from "expo-constants";
+import { useLazyDetailsQuery } from "../store/services/places";
 
 const DeckScreen = () => {
   const dispatch = useDispatch();

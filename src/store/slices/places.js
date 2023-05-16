@@ -1,5 +1,5 @@
 import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { locationsApi, useDetailQuery } from "../services";
+import { locationsApi, useDetailQuery } from "../services/places";
 import Constants from "expo-constants";
 
 const locations = createSlice({

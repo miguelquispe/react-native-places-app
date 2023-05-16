@@ -3,16 +3,16 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
-import WelcomeScreen from "./screens/WelcomeScreen";
-import AuthScreen from "./screens/AuthScreen";
-import MapScreen from "./screens/MapScreen";
-import DeckScreen from "./screens/DeckScreen";
-import SettingsScreen from "./screens/SettingsScreen";
-import ReviewScreen from "./screens/ReviewScreen";
+import WelcomeScreen from "./src/screens/WelcomeScreen";
+import AuthScreen from "./src/screens/AuthScreen";
+import MapScreen from "./src/screens/MapScreen";
+import DeckScreen from "./src/screens/DeckScreen";
+import SettingsScreen from "./src/screens/SettingsScreen";
+import ReviewScreen from "./src/screens/ReviewScreen";
 
 import { Provider } from "react-redux";
 import { PersistGate } from "redux-persist/integration/react";
-import { persistor, store } from "./app/store";
+import { persistor, store } from "./src/store";
 import { Icon } from "@rneui/themed";
 
 // Navigation

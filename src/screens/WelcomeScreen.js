@@ -4,7 +4,7 @@ import Slides from "../components/Slides";
 import { useNavigation } from "@react-navigation/native";
 // import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useDispatch, useSelector } from "react-redux";
-import { facebookToken } from "../app/features";
+import { facebookToken } from "../store/slices/auth";
 // import Constants from "expo-constants";
 
 const SLIDE_DATA = [

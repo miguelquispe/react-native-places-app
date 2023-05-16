@@ -8,7 +8,7 @@ import {
   facebookLoginSuccess,
   facebookLoginFailure,
   facebookToken,
-} from "../app/features";
+} from "../store/slices/auth";
 import * as AuthSession from "expo-auth-session";
 
 import * as Facebook from "expo-auth-session/providers/facebook";

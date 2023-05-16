@@ -12,11 +12,11 @@ import MapView, {
 } from "react-native-maps";
 import React, { useEffect, useState } from "react";
 import { Button } from "@rneui/themed";
-import { useLazyGetLocationsQuery } from "../app/services";
+import { useLazyGetLocationsQuery } from "../store/services/places";
 import Constants from "expo-constants";
 import { useNavigation } from "@react-navigation/native";
 import { useDispatch, useSelector } from "react-redux";
-import { clearPlaces } from "../app/features/locations";
+import { clearPlaces } from "../store/slices/places";
 
 const MapScreen = () => {
   const state = useSelector((state) => state);

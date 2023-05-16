@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import { Button } from "@rneui/base";
 import { useDispatch } from "react-redux";
-import { clearLikes } from "../app/features/likes";
+import { clearLikes } from "../store/slices/likes";
 
 const SettingsScreen = () => {
   const dispatch = useDispatch();
